@@ -1,0 +1,37 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/sort_movies"
+        android:title="Sort Movies"/>
+
+    <item
+        android:id="@+id/popular_list"
+        android:title="Popular Movies"/>
+
+    <item
+        android:id="@+id/top_rated_movies"
+        android:title="Top Rated"/>
+
+
+    <item
+        android:id="@+id/release_date"
+        android:title="Latest Top Movies"/>
+
+    <item
+        android:id="@+id/fav_list"
+        android:title="Favourite Movies"/>
+
+
+    <item
+        android:icon="@drawable/filter"
+        android:title="Filters"
+        app:showAsAction="always|never"/>
+
+
+
+
+</menu>
